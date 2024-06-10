@@ -1,0 +1,7 @@
+services:
+  img:
+    build: .
+    container_name: basic-conatiner
+    ports:
+      - 5000:5000
+
